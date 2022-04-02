@@ -1,0 +1,153 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.header-top {
+    background: #3A69D2;
+    text-align: center;
+    border: #3A69D2 solid 4px;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 40px;
+    color: white;
+    font-weight: 800 bolder;
+    font-family: 'Inter';
+    padding-top: 40px;
+    text-align: center;
+    font-style: normal;
+    line-height: 40px;
+}
+
+h2 {
+
+    font-size: 16px;
+    color: white;
+    font-weight: 400 normal;
+    font-family: "Inter";
+    font-style: normal;
+    padding-bottom: 40px;
+    line-height: 28px;
+}
+
+.flex-container {
+    height: auto;
+    background: #1F2937;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    padding: 9px 13px;
+    font-weight: 500;
+    font-family: "Inter";
+    font-size: 14px;
+    background: #D1D4F4;
+    border: 1px solid white;
+    border-radius: 7px;
+    margin: 40px;
+}
+
+button:hover {
+    border: 1.5px solid white;
+}
+
+.titles {
+    color: white;
+    background: #1F2937;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+}
+
+.titles > h3 {
+    margin-left: 240px;
+    margin-right:240px;
+}
+
+.container-bottom {
+    background: #1F2937;
+    height: 100vh;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Inter";
+    text-align: left;
+    margin-left: -2em;
+    margin-top: 30px;
+}
+
+#container-content {
+    margin-top: 0;
+    margin-left: 240px;
+    list-style-position: inside;
+    color: white;
+    text-align: center;
+    
+}
+#container-price {
+    margin-top: 0;
+    margin-right: 240px;
+    color: white;
+    text-align: center;
+}
+
+hr {
+    width: 66%;
+}
+
+.container-summary {
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Inter";
+    text-align: left;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 5px;
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Inter";
+    text-align: left;
+    margin-left: 240px;
+    margin-right: 240px;
+    padding: 0;
+    margin-top: 0;
+}
+
+#invoice {
+    margin-left: 240px;
+    margin-right:240px;
+    width: 66%;
+    background: #3A69D2;
+    color: white;
+    text-align: center;
+    height: 44px;
+    border-radius: 7px;
+    border-style: none;
+    padding: 9px 17px 9px 15px; 
+}
+
+

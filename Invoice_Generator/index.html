@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="../Invoice_Generator/index.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karla|Inter">
+        <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+        <title>Invoice Generator</title>
+
+
+    </head>
+    <body>
+        <div class="header-top">
+            <h1>Invoice Creator</h1>
+            <h2>Thanks for choosing GoodCorp, LLC!</h2>
+        </div>
+        <div class="flex-container">
+            <button id="wash-btn">Wash Car: $10</button>
+            <button id="mow-btn">Mow Lawn: $20</button>
+            <button id="pull-btn">Pull Weed: $30</button>
+        </div>
+        <div class="container-bottom">
+            <div class="titles">
+                <h3>TASK</h3>
+                <h3>TOTAL</h3>
+            </div>
+            <div class="container">
+                <ul id="container-content" style="list-style-type: none;"></ul>
+                <ul id="container-price" style="list-style-type: none;"></ul>
+            </div>
+            <hr>
+            <div class="titles">
+                <h3>NOTES</h3>
+                <h3>TOTAL AMOUNT</h3>
+            </div>
+            <div class="container-summary">
+                <span id="payment-terms"></span>
+                <p id="total-amount">$0</p>
+            </div>
+            
+            <button id="invoice">Send Invoice</button>
+            
+        </div>
+
+        
+
+
+        
+
+
+
+        <script src="index.js"></script>
+    </body>
+</html>
